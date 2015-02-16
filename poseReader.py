@@ -125,4 +125,4 @@ def createPR():
 if len(constSel) == 2:
     createPR()
 else:
-    cmds.error("Select the target then select and base and run this script again.")
+    cmds.error("Select the target then select the base, while in required pose, and run this script again.")
